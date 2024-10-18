@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Fleetify" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+
+    <!-- Bottom corners rounded -->
+    <style name="CardBottomRounded">
+        <item name="shapeAppearance">@style/ShapeAppearanceBottomRounded</item>
+    </style>
+
+    <style name="ShapeAppearanceBottomRounded" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <!-- Only round the bottom left and bottom right corners -->
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+    </style>
+</resources>

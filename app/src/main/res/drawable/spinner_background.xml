@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background of Spinner -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- Warna background putih -->
+            <corners android:radius="20dp" /> <!-- Sudut melengkung 20dp -->
+            <stroke
+                android:width="2dp"
+                android:color="@color/black" /> <!-- Warna border hitam -->
+        </shape>
+    </item>
+</layer-list>
